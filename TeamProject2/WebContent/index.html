@@ -1,0 +1,270 @@
+<!DOCTYPE HTML>
+<!--
+	Prologue by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Prologue by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+		<!-- Header -->
+			<div id="header">
+
+				<div class="top">
+					<!-- Logo -->
+						<div id="logo">
+							<span class="image avatar48"><img id = "user_pro" src="images/avatar.jpg" alt="" /></span>
+							<h1 id="title">로그인을 해주세요</h1>
+						</div>
+
+					<!-- Nav -->
+						<nav id="nav">
+							<ul>
+								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
+								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Search</span></a></li>
+								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
+								<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a></li>
+							</ul>
+						</nav>
+
+				</div>
+				<div class="bottom" align="center">
+
+				
+						<!-- 쇼설 아이콘 지우고 로그인창을 집어 넣음  -->
+						    <a id="kakao-login-btn"></a>
+  							<a href="http://developers.kakao.com/login"></a>
+   						
+							
+						
+						
+
+				</div>
+
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<!-- Intro -->
+					<section id="top" class="one dark cover">
+						<div class="container">
+
+							<header>
+								<h2 class="alt">Hi! I'm <strong>Prologue</strong>, a <a href="http://html5up.net/license">free</a> responsive<br />
+								site template designed by <a href="http://html5up.net">HTML5 UP</a>.</h2>
+								<p>Ligula scelerisque justo sem accumsan diam quis<br />
+								vitae natoque dictum sollicitudin elementum.</p>
+							</header>
+
+							<footer>
+								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+							</footer>
+
+						</div>
+					</section>
+
+
+
+
+
+
+
+				<!-- Portfolio -->
+				<section id="portfolio" class="two">
+				<div class="container">
+
+						
+				<iframe class=myFrame src='login_search.html' style='width:100%; height:100%'> </iframe>
+				</div>
+				</section>
+
+
+
+
+
+
+
+
+
+				<!-- About Me -->
+					<section id="about" class="three">
+						<div class="container">
+
+							<header>
+								<h2>About Me</h2>
+							</header>
+
+							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+
+							<p>Tincidunt eu elit diam magnis pretium accumsan etiam id urna. Ridiculus
+							ultricies curae quis et rhoncus velit. Lobortis elementum aliquet nec vitae
+							laoreet eget cubilia quam non etiam odio tincidunt montes. Elementum sem
+							parturient nulla quam placerat viverra mauris non cum elit tempus ullamcorper
+							dolor. Libero rutrum ut lacinia donec curae mus vel quisque sociis nec
+							ornare iaculis.</p>
+
+						</div>
+					</section>
+
+				<!-- Contact -->
+					<section id="contact" class="four">
+						<div class="container">
+
+							<header>
+								<h2>Contact</h2>
+							</header>
+
+							<p>Elementum sem parturient nulla quam placerat viverra
+							mauris non cum elit tempus ullamcorper dolor. Libero rutrum ut lacinia
+							donec curae mus. Eleifend id porttitor ac ultricies lobortis sem nunc
+							orci ridiculus faucibus a consectetur. Porttitor curae mauris urna mi dolor.</p>
+
+							<form method="post" action="#">
+								<div class="row">
+									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
+									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
+									<div class="col-12">
+										<textarea name="message" placeholder="Message"></textarea>
+									</div>
+									<div class="col-12">
+										<input type="submit" value="Send Message" />
+									</div>
+								</div>
+							</form>
+
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+
+				<!-- Copyright -->
+					<ul class="copyright">
+						<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+
+			</div>
+
+		<!-- Scripts -->
+		
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+			
+		
+			
+			
+			
+    <script type='text/javascript'>
+    
+    
+    
+    
+  
+    $(document).ready(function(){
+    	  $(window).resize(function(){
+    	    $("iframe.myFrame").height($(window).height()-50);
+    	    $("iframe.myFrame").width($(window).width()-50);
+    	  });
+    	});
+    	
+
+	function resizeframe(fr) {
+		
+		fr
+	}
+    
+    
+    
+    
+
+
+      //<![CDATA[
+        // 사용할 앱의 JavaScript 키를 설정해 주세요.
+        Kakao.init('4de75df8b07d256b8f0d6ba6e7c509d5');
+        // 카카오 로그인 버튼을 생성합니다.
+        Kakao.Auth.createLoginButton({
+          container: '#kakao-login-btn',
+          success: function(res) {
+              Kakao.API.request({
+                  url: '/v2/user/me',
+                  /* 사용자의 프로필 이미지주소와 닉네임 저장  */
+                  success: function(res) {
+                	
+                    var profile_image_url = JSON.stringify(res.properties.profile_image);
+                    var user_nickname = JSON.stringify(res.properties.nickname);
+                    var user_id = JSON.stringify(res.id);
+                    alert(user_id)
+                    alert(profile_image_url);
+                 	alert(user_nickname);
+                   
+                 	//카카오톡에서 전송받은 유저 정보를 세션 스토리지에 저장
+                    sessionStorage.setItem('id', user_id);
+                    var user_var_id = sessionStorage.getItem('id');
+                    alert(user_var_id);
+                    
+                    sessionStorage.setItem('nickname', user_nickname);
+                    var user_var_nickname = sessionStorage.getItem('nickname');
+                    alert(user_var_nickname);
+                    
+              
+                    
+                    if(profile_image_url == undefined){
+                   
+                    	 sessionStorage.setItem('profile_image_url','images/avatar.jpg');
+                    	 var user_var_profile_url = sessionStorage.getItem('profile_image_url');
+                    }else{
+                    	sessionStorage.setItem('profile_image_url', profile_image_url);
+                        var user_var_profile_url = sessionStorage.getItem('profile_image_url');
+                    }
+                    alert(user_var_profile_url);
+                    
+                    
+                    if (user_var_id != undefined){             
+	                        document.getElementById('logo').innerHTML = `<span class="image avatar48"><img id = "user_pro" src=${user_var_profile_url} alt="" /></span> <h1 id="title">${user_var_nickname.replace("\"", "").replace("\"", "")} 님</h1>`;
+                    }else{
+                    	alert('로그인 실패!');
+                    }
+                    
+                    document.getElementById('portfolio'.innerHTML) = `<iframe src='login_search.html'> </iframe>`;
+                    
+                  },
+                  fail: function(error) {
+                    alert(JSON.stringify(error));
+                  }
+              });
+          },
+          fail: function(err) {
+             alert(JSON.stringify(err));
+          }
+        });
+      //]]>
+    </script>
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+    
+
+	</body>
+</html>
