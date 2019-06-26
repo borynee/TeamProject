@@ -12,8 +12,18 @@ input {
 	font-weight: bold;  
 
 }
+.m_kind {
+display: none;
 
+}
+.gu {
+display: none;
+}
 
+#portfolio
+{
+	float: left;
+}
 </style>
 
 
@@ -28,34 +38,54 @@ input {
 
 							<header>
 								<table >
-									<tr bgcolor="gray">
+									<tr bgcolor="#EAEAEA">
 										<td>
 										
-											<h2><input type="button" value="지역 별 " name="local" ></h2>
-											
+											<h2><input type="button" value="  지역 별    " id="local"></h2>
 										</td>
 										
-										<td><h3><input type="button" value="서구"></h3></td>
-										<td><h3><input type="button" value="동구"></h3></td>
-										<td><h3><input type="button" value="남구"></h3></td>
-										<td><h3><input type="button" value="북구"></h3></td>
-										<td><h3><input type="button" value="광산구"></h3></td>
-									
+										
+										<td><h3 class="gu"><input type="button" value="서구"></h3></td>
+										<td><h3 class="gu"><input type="button" value="동구"></h3></td>
+										<td><h3 class="gu"><input type="button" value="남구"></h3></td>
+										<td><h3 class="gu"><input type="button" value="북구"></h3></td>
+										<td><h3 class="gu"><input type="button" value="광산구"></h3></td>
+										
 										 
 									</tr>	
-										<br>
-										
-									<tr>
+									<tr >
 										<td>
-											<h2><input type="button" value="메뉴 종류 "></h2>
+											<h2><input type="button" value="메뉴 종류 " id="menu"></h2>
 										</td>
-										<td><h3>한식</h3></td>
-										<td><h3>양식</h3></td>
-										<td><h3>중식</h3></td>
-										<td><h3>일식</h3></td>
+										<td><h3 class="m_kind"><input type="button" value="한식"></h3></td>
+										<td><h3 class="m_kind"><input type="button" value="양식"></h3></td>
+										<td><h3 class="m_kind"><input type="button" value="중식"></h3></td>
+										<td><h3 class="m_kind"><input type="button" value="일식"></h3></td>
 										<td></td>
 									</tr> 
+									
+										<script src="assets/js/jquery-3.4.1.min.js"> </script>
+										<script type="text/javascript">
+											$(function(){
+												$('#local').on('click',open1);
+												$('#menu').on('click',open2);
+												
+											});
 										
+											function open1() {
+												if($(".gu").css("display","block"));
+											
+											};
+											
+											function open2() {
+												
+												if($(".m_kind").css("display","block"));
+
+											};
+											
+										</script>
+									
+									
 								</table>
 							</header>
 
