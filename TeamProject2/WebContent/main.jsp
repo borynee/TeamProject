@@ -36,9 +36,9 @@
 
 				<!-- Header -->
 				<header id="header" >
-				
+				<img alt="" src="images/title.JPG" height="150px" width="600px">
 				<a href="main.jsp" class="logo">
-						<strong id="chan">시찬이 극찬한 만찬</strong> 
+						<!-- <strong id="chan">시찬이 극찬한 만찬</strong>  -->
 					</a>
 				
 				
