@@ -9,24 +9,19 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="assets/css/main.css" />
-
-<style>
-
-p{
-font: italic bold 1.5em;
-
-}
-
-
+<style type="text/css">
+	.font{
+		font-size : 20px !important;
+	}
+	
+	#chan {
+		font-size : 50px !important;
+		font-style : bold !important;
+	}
+	.logo{
+		width:70%
+	}
 </style>
-
-
-
-
-
-
-
-
 
 </head>
 <body class="is-preload">
@@ -40,20 +35,24 @@ font: italic bold 1.5em;
 			<div class="inner">
 
 				<!-- Header -->
-				<header id="header">
-					<a href="main.html" class="logo"><strong>찬찬찬</strong> 에 오신 걸
-						환영합니다!</a>
+				<header id="header" >
+				
+				<a href="main.jsp" class="logo">
+						<strong id="chan">시찬이 극찬한 만찬</strong> 
+					</a>
+				
+				
 					<ul class="icons">
-
 						<% if (info==null){ %>
 						<li><a href="login.html" class="button big">로그인</a></li>
 						<% } else{%>
-						<li><a href="main.html" class="button big">회원정보수정</a></li>
+						<li><a href="main.jsp" class="button big">회원정보수정</a></li>
 						<li><a href="Logout" class="button big">로그아웃</a></li>
 						<%} %>
-
-
 					</ul>
+					
+					
+ 					
 				</header>
 
 
@@ -63,9 +62,9 @@ font: italic bold 1.5em;
 					<h1><p>시찬이 극찬한 만찬</p></h1>
 					
 								
-							<h2><p>공무원 업무추진비를 통한 신뢰성 있는 맛집 추천! 가즈아아앙</p></h2>
+							<h3><p>진짜 맛집인지 궁금하신가요?</p></h3>
 					
-						<p>한끼를 먹더라도 맛있는 가게에서 먹어야 기분이 좋죵 흐흐 맛이 없으면 허원식이 책임집니다!. 믿고 쓰세요.
+						<p>공무원 업무추진비를 통한 맛집 추천해드립니다
 						</p>
 						<ul class="actions">
 							<li><a href="#" class="button big">Learn More</a></li>
@@ -188,7 +187,6 @@ font: italic bold 1.5em;
 						</article>
 					</div>
 				</section>
-
 			</div>
 		</div>
 
@@ -209,15 +207,16 @@ font: italic bold 1.5em;
 						<h2>Menu</h2>
 					</header>
 					<ul>
-						<li><a href="main.html">홈페이지</a></li>
-						<li><span class="opener">메뉴</span>
+						<li class= "font"><button href="main.jsp" font-size="10px"><strong>홈페이지</strong></button></li>
+						
+						<li class= "font"><span class="opener">메뉴</span>
 							<ul>
-								<li><a href="#">전체메뉴</a></li>
-								<li><a href="#">지역 선택</a></li>
-								<li><a href="#">메뉴 선택</a></li>
+								<li class= "font"><a href="#">전체메뉴</a></li>
+								<li class= "font"><a href="#">지역 선택</a></li>
+								<li class= "font"><a href="#">메뉴 선택</a></li>
 							</ul></li>
-						<li><a href="generic.html">지도</a></li>
-						<li><a href="elements.html">게시판</a></li>
+						<li class= "font"><a href="map.jsp">지도</a></li>
+						<li class= "font"><a href="generic.html">게시판</a></li>
 
 					</ul>
 				</nav>
