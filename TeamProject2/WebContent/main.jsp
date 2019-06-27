@@ -9,6 +9,25 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="assets/css/main.css" />
+
+<style>
+
+p{
+font: italic bold 1.5em;
+
+}
+
+
+</style>
+
+
+
+
+
+
+
+
+
 </head>
 <body class="is-preload">
 	<% MemberDTO info =(MemberDTO)session.getAttribute("info"); %>
@@ -41,17 +60,18 @@
 				<!-- Banner -->
 				<section id="banner">
 					<div class="content">
-						<header>
-							<h1>시찬이 극찬한 만찬</h1>
-							<p>공무원 업무추진비를 통한 신뢰성 있는 맛집 추천! 가즈아아앙</p>
-						</header>
+					<h1><p>시찬이 극찬한 만찬</p></h1>
+					
+								
+							<h2><p>공무원 업무추진비를 통한 신뢰성 있는 맛집 추천! 가즈아아앙</p></h2>
+					
 						<p>한끼를 먹더라도 맛있는 가게에서 먹어야 기분이 좋죵 흐흐 맛이 없으면 허원식이 책임집니다!. 믿고 쓰세요.
 						</p>
 						<ul class="actions">
 							<li><a href="#" class="button big">Learn More</a></li>
 						</ul>
 					</div>
-					<span class="image object"> <img src="images/aaa.jpg" alt="" />
+					<span class="image object"> <img src="images/bab.jpg" alt="" />
 					</span>
 				</section>
 
@@ -215,7 +235,7 @@
 								<%} %>
 						</li>
 						<li class="icon solid fa-envelope">
-							<% if (info==null){ %> <span>로그인해주세요.</span></a> <% } else{%> <a href="#"><span><%= info.getName()%></span>
+							<% if (info==null){ %> <span>로그인해주세요.</span></a> <% } else{%> <a href="#"><span><%= info.getEmail()%></span>
 								<%} %>
 						</li>
 						<li class="icon solid fa-phone">

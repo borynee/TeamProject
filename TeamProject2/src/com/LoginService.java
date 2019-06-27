@@ -28,7 +28,7 @@ public class LoginService extends HttpServlet {
 		
 		
 		request.setCharacterEncoding("utf-8");
-		String url=null;
+		String url=null;	
 		String id=request.getParameter("id");
 		String pw= request.getParameter("pw");
 		
