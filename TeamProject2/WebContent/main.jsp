@@ -19,7 +19,7 @@
 		font-style : bold !important;
 	}
 	.logo{
-		width:70%
+		width:70%;
 	}
 </style>
 
@@ -50,9 +50,7 @@
 						<li><a href="Logout" class="button big">로그아웃</a></li>
 						<%} %>
 					</ul>
-					
-					
- 					
+
 				</header>
 
 
@@ -74,7 +72,7 @@
 					</span>
 				</section>
 
-				<!-- Section -->
+ 				<!-- Section -->
 				<section>
 					<header class="major">
 						<h2>Erat lacinia</h2>
@@ -83,7 +81,7 @@
 						<article>
 							<span class="icon fa-gem"></span>
 							<div class="content">
-								<h3>Portitor ullamcorper</h3>
+								<h3>Portitor ullamcorper</h3>	
 								<p>Aenean ornare velit lacus, ac varius enim lorem
 									ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed
 									nulla amet lorem feugiat tempus aliquam.</p>
@@ -203,11 +201,15 @@
 
 				<!-- Menu -->
 				<nav id="menu">
+					<div height="200px">
+						<a href="main.jsp"><img src="images/chan2.png" width="100%" height="100%"></a>
+					</div>
 					<header class="major">
+						
 						<h2>Menu</h2>
 					</header>
 					<ul>
-						<li class= "font"><button href="main.jsp" font-size="10px"><strong>홈페이지</strong></button></li>
+						<li class= "font"><a href="main.jsp" font-size="10px"><strong>홈페이지</strong></a></li>
 						
 						<li class= "font"><span class="opener">메뉴</span>
 							<ul>
