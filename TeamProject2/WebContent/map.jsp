@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body class="is-preload">
-<% MemberDTO info =(MemberDTO).getAttribute("info"); %>
+<%MemberDTO info = (MemberDTO)request.getAttribute("info"); %>
 <%response.setCharacterEncoding("utf-8"); %>
 	<!-- Wrapper -->
 	<div id="wrapper">

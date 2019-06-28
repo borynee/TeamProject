@@ -29,19 +29,16 @@
 	<%response.setCharacterEncoding("utf-8"); %>
 	<!-- Wrapper -->
 	<div id="wrapper">
-
 		<!-- Main -->
 		<div id="main">
 			<div class="inner">
-
 				<!-- Header -->
 				<header id="header" >
 				<img alt="" src="images/title.JPG" height="150px" width="600px">
 				<a href="main.jsp" class="logo">
 						<!-- <strong id="chan">시찬이 극찬한 만찬</strong>  -->
 					</a>
-				
-				
+			
 					<ul class="icons">
 						<% if (info==null){ %>
 						<li><a href="login.html" class="button big">로그인</a></li>
@@ -53,13 +50,10 @@
 
 				</header>
 
-
 				<!-- Banner -->
 				<section id="banner">
 					<div class="content">
 					<h1><p>시찬이 극찬한 만찬</p></h1>
-					
-								
 							<h3><p>진짜 맛집인지 궁금하신가요?</p></h3>
 					
 						<p>공무원 업무추진비를 통한 맛집 추천해드립니다
@@ -189,10 +183,9 @@
 		</div>
 
 		<!-- Sidebar -->
-		<div id="sidebar">
+ 		<div id="sidebar">
 			<div class="inner">
-
-				<!-- Search -->
+				Search
 				<section id="search" class="alt">
 					<form method="post" action="#">
 						<input type="text" name="query" id="query" placeholder="Search" />
@@ -218,17 +211,11 @@
 								<li class= "font"><a href="#">메뉴 선택</a></li>
 							</ul></li>
 						<li class= "font"><a href="map.jsp">지도</a></li>
-						<li class= "font"><a href="generic.html">게시판</a></li>
-
+						<!-- <li class= "font"><a href="generic.html">게시판</a></li> -->
 					</ul>
 				</nav>
-
-
-
-
 				<!-- Section -->
 				<section>
-
 					<ul class="contact">
 
 						<li class="icon solid fa-home">
